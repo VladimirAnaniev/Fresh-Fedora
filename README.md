@@ -1,11 +1,12 @@
 # Fresh-Fedora
-Configurations and packages to install after fresh Fedora installation
+Configurations and packages to install after fresh Fedora Workstation 26 installation
 
 ## Table of contents
 - [Configuration](#configuration)
 - [Essential tools](#essential-tools)
-- [Programming](#programming)
+- [Development](#development)
 - [Media](#media)
+- [Utilities](#utilities)
 - [Appearance](#appearance)
 
 ## Configuration
@@ -14,10 +15,13 @@ Configurations and packages to install after fresh Fedora installation
 ## Essential Tools
 
 
-## Programming
+## Development
 
 
 ## Media
+
+
+## Utilities
 
 
 ## Appearance
