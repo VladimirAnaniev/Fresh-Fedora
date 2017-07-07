@@ -8,7 +8,7 @@ mkdir temp && cd ./temp
 wget -O skype.rpm https://go.skype.com/skypeforlinux-64.rpm
 
 echo -e "${GREEN} Installing Skype ${NC}"
-sudo rpm -i hyper.rpm
+sudo rpm -i skype.rpm
 
 echo -e "${GREEN} Cleaning up ${NC}"
 cd .. && rm -rf temp
