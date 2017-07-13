@@ -15,5 +15,9 @@ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-rele
 echo -e "${GREEN}Installing Gnome Tweak Tool ${NC}"
 sudo dnf install gnome-tweak-tool
 
-echo -e "${GREEN}Installing Unzip ${NC}"
-sudo dnf install unzip
+echo -e "${GREEN}Installing Linux Standard Base (LSB) Core ${NC}"
+sudo dnf install lsb
+
+echo -e "${GREEN}Installing chrome-gnome-shell ${NC}"
+sudo dnf copr enable region51/chrome-gnome-shell
+sudo dnf install chrome-gnome-shell

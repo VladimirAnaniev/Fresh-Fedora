@@ -14,7 +14,7 @@ rm -rf gitkraken-amd64.tar.gz && rm -rf gitkraken/
 
 echo -e "${GREEN}Creating Shortcut ${NC}"
 cd /opt/GitKraken
-wget icon.png -O http://img.informer.com/icons_mac/png/128/422/422255.png
+wget -O icon.png http://img.informer.com/icons_mac/png/128/422/422255.png
 sudo echo "[Desktop Entry]
 Name=GitKraken
 Comment=Git Flow

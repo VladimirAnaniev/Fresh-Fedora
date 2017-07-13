@@ -8,3 +8,6 @@ npm install -g create-react-app
 
 echo -e "${GREEN}Installing Standard ${NC}"
 npm install -g standard
+
+echo -e "${GREEN}Installing Yarn ${NC}"
+npm install -g yarn
