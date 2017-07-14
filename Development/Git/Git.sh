@@ -8,6 +8,12 @@ sudo dnf -y install git
 
 echo -e "${GREEN} Cinfiguration ${NC}"
 
-# TODO: set user and email
-git config --global user.name "VladimirAnaniev"
-git config --global user.email "vladeto97@gmail.com"
+echo -e "${GREEN} Enter your name: ${NC}"
+read userName
+git config --global user.name userName
+
+echo -e "${GREEN} Enter your email: ${NC}"
+read userEmail
+git config --global user.email userEmail
+
+echo -e "${GREEN} All set! ${NC}"
